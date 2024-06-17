@@ -1,13 +1,14 @@
-## Foundry
+## rsETH depeg attack
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Resources
 
-Foundry consists of:
+The [LRTConfig contract](https://etherscan.io/address/0x947Cb49334e6571ccBFEF1f1f1178d8469D65ec7#readProxyContract) contains the current configuration as well as
+a registry of deployed contracts.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+The [LRTOracle contract](https://etherscan.io/address/0x349A73444b1a310BAe67ef67973022020d70020d#code) contract points to the following price oracles: 
+- [LiDo stETH oracle](https://etherscan.io/address/0x4cB8d6DCd56d6b371210E70837753F2a835160c4#readContract) 1-1 hardcoded
+- [Stader ETHx oracle](https://etherscan.io/address/0x3D08ccb47ccCde84755924ED6B0642F9aB30dFd2#readProxyContract) protocol internal exchange rate
+- [Frax sfrxETH oracle](https://etherscan.io/address/0x8546A7C8C3C537914C3De24811070334568eF427#readProxyContract) protocol internal exchange rate
 
 ## Documentation
 
