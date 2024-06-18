@@ -9,7 +9,7 @@ inspect :; forge inspect ${contract} storage-layout --pretty
 FORK_URL := https://rpc.ankr.com/eth
 
 # local tests without fork
-t  :; forge test -vv --fork-url ${FORK_URL}
+t  :; forge test -vvv --fork-url ${FORK_URL}
 trace  :; forge test -vvv --fork-url ${FORK_URL}
 gas  :; forge test --fork-url ${FORK_URL} --gas-report
 test-contract  :; forge test -vv --match-contract $(contract) --fork-url ${FORK_URL}

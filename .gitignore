@@ -12,3 +12,8 @@ docs/
 
 # Dotenv file
 .env
+/.gas-snapshot
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/rseth_attack.iml
+/.idea/vcs.xml
