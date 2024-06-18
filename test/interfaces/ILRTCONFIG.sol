@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.25;
 
-interface LRTCONFIG {
+interface ILRTCONFIG {
     function getAssetPrice(address) external view returns (uint256);
 }
